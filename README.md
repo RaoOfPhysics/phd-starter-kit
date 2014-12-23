@@ -1,4 +1,4 @@
-phdchat-starter-kit
+phd-starter-kit
 ===================
 
 Raw Markdown text for blog post on PhD starter kit
