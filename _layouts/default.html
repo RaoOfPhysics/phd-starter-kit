@@ -24,9 +24,9 @@
         <div class="container">
             <header class="masthead clearfix">
                 <div class="site-info">
-                    <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                    <h1 class="site-name">{{ site.name }}</h1>
                     <p class="site-description">{{ site.description }}</p>
-                    <p class="date">Written on {{ page.date | date: '%d %B %Y' }} | Last modified on {{ page.modified-date | date: '%d %B %Y' }}</p>
+                    <p class="date">[ Published: {{ page.date | date: '%d %b %Y' }} ][ Last modified: {{ page.modified-date | date: '%d %b %Y' }} ][ <a href="https://github.com/RaoOfPhysics/phd-starter-kit/commits/gh-pages/index.md">See full history</a> ]</p>
                 </div>
 
                 <nav>
