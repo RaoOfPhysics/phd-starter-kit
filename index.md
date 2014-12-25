@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2014-12-24
-modified-date: 2014-12-24
+modified-date: 2014-12-25
 ---
 
 This website is the result of a conversation with a friend at work, who is about to embark on a PhD soon and who asked me for some general advice on life in academia.
@@ -46,7 +46,7 @@ However, these following methods have largely worked for me over the last year.
 
 As a distance-learning student, I don't get to meet my supervisors nearly enough.
 However, I keep a dedicated notebook (a [ruled, large Moleskine](http://www.moleskine.com/en/collections/model/product/ruled-notebook-large), in this case) for all the conversations I have with them, in person or via VoIP.
-I also jot down ideas, `TODO` items and reminders in this notebook (before transferring them to other channels, see below), and keep the book with my nearly all the time.
+I also jot down ideas, `TODO` items and reminders in this notebook (before transferring them to other channels, see below), and keep the book with me nearly all the time.
 
 I also have an [Evernote](https://evernote.com/) notebook for recording longer, more detailed notes to myself, and whenever I come across an event (such as a conference) that seems interesting, I file it away in a spreadsheet on [Google Drive](https://drive.google.com).
 But I really prefer taking notes by putting pen to paper; I seem to retain more information that way, although maybe that's just my selection bias speaking.
@@ -123,17 +123,15 @@ There are several reference-/citation-management programs that can simplify the 
 ### Zotero
 
 I cannot count the number of times I have gushed to my friends about [Zotero](https://www.zotero.org/).
-It is possibly the single-most useful academic tool I have come across.
-Zotero primarily resides in my browser, and when I come across a document that I need to add to my library, I simply click a button in the address bar and Zotero does the rest.
+It is possibly the single-most useful academic tool I know.
+Zotero primarily resides in my browser, and when I find a document that I need to add to my library, I simply click a button in the address bar and Zotero does the rest.
 It extracts name of the article/piece/paper, authors, publication name, date, DOI and more, and even downloads the PDF for you (if you have the rights) along with a snapshot of the website on the day you accessed it.
 You can also manually add documents to it.
 
 The real magic, for me, comes from the plugins for LibreOffice and MS Word: with a single click, you can insert a citation for any of the documents in your collection, in [over 7000 citation styles](https://www.zotero.org/styles).
 You can then append a bibliography at the end of the document with ease.
 
-Now, I can almost hear you say, "Hang on, I thought you said you used [Markdown](#markdown)…"
-I do, but my initial experience with Zotero was on MS Word and LibreOffice.
-And of course there's no trivial way of adding Zotero citations into a Markdown file.
+Although, I prefer storing my text in [Markdown](#markdown) files, I still rely on Zotero's LibreOffice integration, as there's no trivial way of adding citations and then generating a bibliography in a Markdown file.
 So, my workflow for integrating Zotero and Markdown involves a plugin called [RTF/ODF-Scanfor Zotero](http://zotero-odf-scan.github.io/zotero-odf-scan/).
 This plugin uses something known as "[citation markers](http://zoteromusings.wordpress.com/2013/05/06/announcing-rtfodf-scan-for-zotero/)", which look this: `{ | Miller, 2001 | | |zu:1225849:UVVC45VN}`.
 These markers can be inserted into any type of document as they are essentially plain text.
@@ -215,8 +213,8 @@ Given that you will probably circulate drafts to your supervisors and colleagues
 
 If, however, you are familiar with MS Word and prefer not to use something drastically different to it, I recommend [LibreOffice](http://www.libreoffice.org/) or [OpenOffice](https://www.openoffice.org/).
 They are free, open-source tools that can open and save files in the `.doc(x)` format if needed.
-But most importantly, they have [version control](#version-control) built in: `File` &rarr; `Versions` (hat-tip to my brother, Aditya, for pointing this out to me).
-Newer releases of MS Word don't have this functionality.
+But most importantly, they have [basic functionality](https://eeperry.wordpress.com/2014/01/15/libreoffice-version-control/) for [version control](#version-control) built in: `File` &rarr; `Versions` (hat-tip to my brother, Aditya, for pointing this out to me).
+Newer releases of MS Word don't have this feature.
 I don't use Google Drive for my academic documentation, but I know that you can see the history of any of your files on it (albeit without the control of manually creating versions).
 
 If, on the other hand, you are willing to try something that has worked for me, check out…
@@ -445,7 +443,7 @@ You turn to…
 
 ### ZENODO
 
-[ZENODO](https://zenodo.org/about) is developed by [CERN](http://cern.ch) and is a member of the [DataCite](https://www.datacite.org/).
+[ZENODO](https://zenodo.org/about) is developed by [CERN](http://cern.ch) and is a member of [DataCite](https://www.datacite.org/).
 It serves as a repository for the so-called "long tail" of research and can mint DOIs for a variety of document types, including but not limited to:
 
 - [Datasets](https://zenodo.org/collection/datasets?ln=en)
@@ -513,7 +511,7 @@ Use with caution: some Prezi presentations induce headaches by swirling around y
 - **JavaScript tools for HTML presentations**: People have been building really cool presentation platforms that are written in JavaScript and can be deployed on any modern web browser (I cannot stress "modern" enough &mdash; recently I had to make one on an old version of IE, and nothing worked).
 I really like these, because they stop me from getting distracted by the "appearance" of the slides, allowing me instead to focus on the content.
 Oh, and you can use [Git](#git) for these files, which means… that's right, "[version control](#version-control)".
-I work on my local Git repository and when I am happy with the presentation, I push it to my remote and then pull it into my server. "Simple."
+I work on my local Git repository and when I am happy with the presentation, I push it to my remote and then pull it into my server. "Simple." Here are a few such tools:
 	- [reveal.js](http://lab.hakim.se/reveal-js/): This is the one I use.
 	[Here's one I made earlier](https://cern.ch/achintya/presentations/OpenData_CERN/): use your keyboard to navigate, but don't miss the "downward" navigation on some slides.
 	- [deck.js](http://imakewebthings.com/deck.js/)
