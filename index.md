@@ -584,7 +584,7 @@ If you have anything to add, please [leave a comment on my blog](http://achintya
 > Rao, A. ({{ page.modified-date | date: '%Y' }})
 *PhD Starter Kit: Preparing for Life in Academia*
 Available from: https://raoofphysics.github.io/phd-starter-kit
-[Accessed {{ site.time | date: '%d %B %Y' }}]
+[Accessed {{ 'now' | date: '%d %B %Y' }}]
 
 - [APA](http://apastyle.org/):
 
@@ -597,4 +597,4 @@ Retrieved from https://raoofphysics.github.io/phd-starter-kit
 > Rao, Achintya.
 *PhD Starter Kit: Preparing for Life in Academia*.
 Achintya Rao, {{ page.date | date: '%Y' }}.
-Web. {{ site.time | date: '%d %B %Y' }}
+Web. {{ 'now' | date: '%d %B %Y' }}
