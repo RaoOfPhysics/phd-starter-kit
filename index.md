@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2014-12-24
-modified-date: 2014-12-25
+modified-date: 2015-01-07
 ---
 
 This website is the result of a conversation with a friend at work, who is about to embark on a PhD soon and who asked me for some general advice on life in academia.
@@ -39,7 +39,7 @@ Feel free to [skip this section](#backups).
 First, let me share a crucial piece of advice I came across this year: ensure that every day is a [Non-Zero Day](http://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cdah4af) &mdash; do something, no matter how small it may seem, that contributes to your research every single day.
 
 A caveat: my own experience may not offer the best standpoint.
-I was recently diagnosed with ADHD, and leading up to the diagnosis I experimented with several different organisational paradigms, with varying degrees of success (which, I'll conceded, is a euphemistic way of saying that most of them failed).
+I was recently diagnosed with ADHD, and leading up to the diagnosis I experimented with several different organisational paradigms, with varying degrees of success (which, I'll concede, is a euphemistic way of saying that most of them failed).
 However, these following methods have largely worked for me over the last year.
 
 ### Notebooks
@@ -155,7 +155,7 @@ I recommend two ways of going about with your annotated bibliography:
 1. If you use Zotero, you can use the `Extras` field to store your notes along with each document.
 Emory University has a [detailed guide on doing this](http://guides.main.library.emory.edu/c.php?g=49913&p=323640) and you can also check out [this discussion on the Zotero forum](https://forums.zotero.org/discussion/73/annotated-bibliography/).
 2. I prefer instead to maintain mine as a [Markdown](#markdown) file stored on [Penflip](#penflip).
-The advantage of this is that I have the full history of my additions and changes to the bibliography (more on this below, under [Verison Control](#version-control)).
+The advantage of this is that I have the full history of my additions and changes to the bibliography (more on this below, under [Version Control](#version-control)).
 I store my notes themselves as a quote (demarceted by `>`) below the bibliography entry, so it looks something like this:
 
 ~~~
@@ -315,7 +315,7 @@ The Information Commissioner's Office in the UK has a [thorough guide on anonymi
 
 ### Encryption
 
-This is a topic that has received much attention in recent times, but with regard to state surveillance.
+This is a topic that has received much attention in recent times.
 However, the lessons learnt from this and the tools used are applicable to encrypting your research data, particularly when anonymity is a concern.
 
 One of the tools that has been in the spotlight is [TrueCrypt](http://en.wikipedia.org/wiki/TrueCrypt).
@@ -464,7 +464,7 @@ It has to be said, though, that researchers make some of the worst presentations
 And let's not even go into the cluttered posters; I have seen "posters" by theoretical physicists that are simply A4 pages of their research paper printed and arranged to occupy an A0 canvas &mdash; why bother?!
 
 This isn't surprising, really.
-Not everyone has an ability to make something both aesthetically appealing and informative, and we're better of leaving design to designers.
+Not everyone has an ability to make something both aesthetically appealing and informative, and we're better off leaving design to designers.
 Researchers, on the other hand, generally go for overkill on information while ignoring the visual appeal.
 However, this doesn't mean you can't learn and improve.
 
