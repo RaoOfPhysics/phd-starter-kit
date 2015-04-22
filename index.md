@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2014-12-24
-modified-date: 2015-01-07
+modified-date: 2015-04-22
 ---
 
 This website is the result of a conversation with a friend at work, who is about to embark on a PhD soon and who asked me for some general advice on life in academia.
@@ -527,7 +527,7 @@ Posters are meant to tell a story. Unlike presentations, they will probably get 
 	- Although posters tend to be image-driven, use only the bare-minimum number of charts, graphs, photos and plots that you need. And then strip your visuals of unnecessary text/markings.
 	- It may not be wise to eliminate sentences and paragraphs, but break up your text into meaningful chunks.
 - Use a dedicated design software.
-Get [Adobe InDesign](http://www.adobe.com/products/indesign.html) or free alternatives: [Scribus](http://www.scribus.net/canvas/Scribus) or [GIMP](http://www.gimp.org/).
+Get [Adobe InDesign](http://www.adobe.com/products/indesign.html) or free alternatives: [Scribus](http://www.scribus.net/canvas/Scribus), [Inkscape](https://inkscape.org/en/) or [GIMP](http://www.gimp.org/).
 - Rethink the flow of the poster: not all posters need to go from top to bottom, left-most column to right-most (for Indo-European languages).
 - Provide supporting documents.
 Your poster will never tell the whole story, but it has to catch the attention of the audience.
