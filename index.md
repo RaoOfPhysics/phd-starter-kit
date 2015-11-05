@@ -342,7 +342,7 @@ Also, the open nature of the alternatives I've mentioned below has given us a we
 
 The first software tool I want to mention is the open-source [R programming language](http://www.r-project.org/), which is widely used for statistical analysis and generating related graphics.
 I have only dabbled a little with R &mdash; not enough to tell you about its strengths and weakness &mdash; but I've used the R Project's [official introduction to the software](http://cran.r-project.org/doc/manuals/R-intro.html), which is really quite detailed.
-If you're wondering whether this is the tool for you, I suggest reading [Why R](http://cran.r-project.org/doc/manuals/R-intro.html) by Alastair Sanderson of the University of Birmingham, who also offers a guide on getting started with it.
+If you're wondering whether this is the tool for you, I suggest reading [Why R](http://www.sr.bham.ac.uk/~ajrs/R/why_R.html) by Alastair Sanderson of the University of Birmingham, who also offers a guide on getting started with it.
 
 R also has a vibrant community devoted to developing R packages for science: find out more at [rOpenSci](http://ropensci.org/).
 
