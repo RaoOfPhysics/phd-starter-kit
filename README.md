@@ -1,5 +1,7 @@
 # PhD Starter Kit: Preparing for Life in Academia
 
+[![Achintya's PhD repos](https://img.shields.io/badge/collection-Achintya's%20PhD%20repos-yellowgreen.svg)](https://github.com/RaoOfPhysics/phd)
+
 Welcome to my [little project](https://raoofphysics.github.io/phd-starter-kit). :)
 
 ## Copyright and licences
