@@ -31,7 +31,7 @@ baseurl: "/phd-starter-kit"
 #
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
