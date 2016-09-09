@@ -1,12 +1,11 @@
 ---
 layout: default
 date: 2014-12-24
-modified-date: 2015-04-22
+modified-date: 2016-09-08
 ---
 
-This website is the result of a conversation with a friend at work, who is about to embark on a PhD soon and who asked me for some general advice on life in academia.
-Rather than sending him a bunch of links in a private e-mail, I decided to put all my thoughts down into a blog post.
-That blog post somehow morphed into this single-purpose website that I hope will be of interest to a few people.
+**NOTE**: This website has been updated with quite a few edits and additions.
+The last version of the site, containing only minor edits to the content compared with the original text, can be found [here](https://github.com/RaoOfPhysics/phd-starter-kit/blob/5ffb28edaf5b4365c21761ee409de75264c58f00/index.md).
 
 ---
 
@@ -15,12 +14,15 @@ Not only had I been quite out of touch with formal education since I finished my
 However, the one advantage of my relative newness to this world was that I could adopt a fresh approach to my research workflow: I was not constrained by paradigms that I had heavily invested in before, nor was I tied in to any particular software tools.
 (Ok, so it's worth admitting that this comes with some disadvantages too: new software &rarr; learning curve, for example.)
 
-As one might hope, I've come out of my first year as a part-time PhD student relatively unscathed and equipped with more skills and knowledge than this time last year.
-So I thought I should curate a sort of starter kit of the tools as well as tips and tricks for life in academia that I have come across in this time.
-This list is neither exhaustive nor applicable to everyone; it merely contains suggestions for things that have worked for me.
+As one might hope, I came out of my first year as a part-time PhD student relatively unscathed and equipped with more skills and knowledge than I had before I began my studies.
+So, in December 2014, I thought I should curate a sort of starter kit of the tools as well as tips and tricks for life in academia that I have come across in this time.
+I have now updated the document with more tools, some based on feedback I received since I first wrote the piece.
+This list is neither exhaustive nor applicable to everyone; it merely contains suggestions for things that have worked for me or that I am trying.
 If I didn't include something that has worked for you, or if you disagree with my approach, please [leave a comment on my blog](http://achintyarao.in/phdchat)!
 
-The objective here is to give a broad overview of practices that I think might help your research if you adopt them early enough in your academic career.
+**Important**: The objective here is to give a broad overview of practices that I think might help your research if you adopt them early enough in your academic career.
+It does not include advice on how to choose one's advisors, dealing with classes and credits, how to apply for grants etc.
+
 Although you will mostly start cobbling your own toolkit systems as you go along with your research, it helps to think of workflows and methodologies before you throw yourself in.
 
 Let's go!
@@ -36,7 +38,7 @@ This is a non-trivial topic: the best methods of task management vary from perso
 There are many resources online with excellent guidance for managing your work, and I defer to their greater wisdom on the matter.
 Feel free to [skip this section](#backups).
 
-First, let me share a crucial piece of advice I came across this year: ensure that every day is a [Non-Zero Day](http://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cdah4af) &mdash; do something, no matter how small it may seem, that contributes to your research every single day.
+First, let me share a crucial piece of advice I came across: ensure that every day is a [Non-Zero Day](http://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cdah4af) &mdash; do something, no matter how small it may seem, that contributes to your research every single day. If you're using Android, check out [Nonzero Day](https://play.google.com/store/apps/details?id=com.markschmidt.nonzeroday) for tracking your NZD streaks.
 
 A caveat: my own experience may not offer the best standpoint.
 I was recently diagnosed with ADHD, and leading up to the diagnosis I experimented with several different organisational paradigms, with varying degrees of success (which, I'll concede, is a euphemistic way of saying that most of them failed).
@@ -62,7 +64,7 @@ Many of you may have a day job while pursuing your PhD, and will therefore have 
 - research
 
 It can sometimes be difficult for me to focus on one task category, when there's worry or anxiety about the others.
-What I do is write down everything I need to do across all categories, and then start filing them under the respective categories, prioritising tasks as I go along.
+What I do is write down everything I need to do regardless of category, and then start filing them under the respective categories, prioritising tasks as I go along.
 One method that has had some measure of success with me is the…
 
 #### Bullet Journal
@@ -73,7 +75,7 @@ I use this method along with…
 
 #### Asana
 
-I was introduced to [Asana](https://asana.com/) by a [friend](https://twitter.com/neuroamanda) around a year ago, and have been using it on and off for long-term planning of my activities.
+I was introduced to [Asana](https://asana.com/) by a [friend](https://twitter.com/neuroamanda) and have been using it on and off for long-term planning of my activities.
 As a PhD student, you will often need to plan well into the future, with many external deadlines looming ahead: progress reports, vivas, conference submissions etc.
 Many of these have smaller sub-tasks, and this is where Asana comes in.
 You can define projects for yourself and create `TODO` lists under them with notes.
@@ -91,9 +93,10 @@ Primarily, I use [Google Calendar](https://calendar.google.com), in which I set 
 - PhD events
 - regular reminders (recurring items, across all previous categories)
 
-However, I don't use the native Google Calendar interface either on the web or on my phone: instead I use [Sunrise](https://calendar.sunrise.am/), which syncs not only with my Google Calendar but also my [Asana](#asana) agenda, [GitHub](#github) milestones and Exchange calendar (which is tied to my work e-mail account).
-
-My phone's home screen has a calendar widget right at the top. Although I don't use the Calendar app on my laptop, I have set it up to sync with all these calendars to take advantage of the ["Today" view](http://support.apple.com/kb/PH18739) in OS X Yosemite's Notification Center.
+I also sync my [Asana](#asana) agenda with Google Calendar.
+I integrate both my Exchange calendars (for work and university) on my phone.
+Although I don't really use the Calendar app on my laptop, I have set it up to sync with all these calendars to take advantage of the ["Today" view](http://support.apple.com/kb/PH18739) in OS X Yosemite's Notification Center.
+I handle calendar invitations on my laptop using [Thunderbird](https://www.mozilla.org/thunderbird/), which I use for e-mail across all my accounts.
 
 There is no right or wrong way of calendaring, but be sure that you use some form.
 
@@ -158,12 +161,23 @@ Emory University has a [detailed guide on doing this](http://guides.main.library
 The advantage of this is that I have the full history of my additions and changes to the bibliography (more on this below, under [Version Control](#version-control)).
 I store my notes themselves as a quote (demarceted by `>`) below the bibliography entry, so it looks something like this:
 
-~~~
+```markdown
 - Miller, S. (2001) Public understanding of science at the crossroads.
 Public Understanding of Science. 10 (1), pp. 115–120.
 > Miller's important piece on the evolving relation between science
 and society is…
-~~~
+
+- […]
+```
+
+#### Hypothesis
+
+You may have noticed that this page comes with a set of buttons on the top-right corner.
+These are provided by a fantastic annotation tool called [Hypothesis](https://hypothes.is).
+Not only does Hypothesis allow you to leave personal notes on your reference material all over the web (publicly, privately or with a specific group of users), you can also use it to [annotate your PDFs](https://hypothes.is/blog/annotating-pdfs-without-urls/).
+This feature is particularly useful if you use [Zotero](#zotero), since you can use its plugin to open your reference PDFs inside your browser and then launch the Hypothesis javascript to add an annotation layer on top of youf files.
+
+Your annotations are synchronised with your account so that they will appear even when you open up the same PDF on the website of the journal from which you downloaded it.
 
 ## Directory Structure
 
@@ -191,14 +205,14 @@ However, other sub-directories may need to be grouped by date (for example, in a
 I recommend using a nomenclature based from the [ISO date format](http://en.wikipedia.org/wiki/ISO_8601) as it helps you sort your directories quickly: generally `YYYYMM` should suffice.
 So my directory for conferences and its sub-directories might look something like this:
 
-~~~
+```
 - 03_Events
 	- 201412_ConfName
 		- 01_PreConference
 		- 02_DuringConference
 		- 03_PostConference
- 	- 201502_Seminar
-~~~
+	- 201502_Seminar
+```
 
 Finally, I want to briefly mention remote file systems, such as [DFS](http://en.wikipedia.org/wiki/Distributed_File_System_%28Microsoft%29).
 CERN provides a DFS service, which I use to store confidential/sensitive files (more on this under [Encryption](#encryption)).
@@ -341,12 +355,14 @@ Also, the open nature of the alternatives I've mentioned below has given us a we
 #### R
 
 The first software tool I want to mention is the open-source [R programming language](http://www.r-project.org/), which is widely used for statistical analysis and generating related graphics.
-I have only dabbled a little with R &mdash; not enough to tell you about its strengths and weakness &mdash; but I've used the R Project's [official introduction to the software](http://cran.r-project.org/doc/manuals/R-intro.html), which is really quite detailed.
+The more time I spend with R, the more I sing its praises.
 If you're wondering whether this is the tool for you, I suggest reading [Why R](http://www.sr.bham.ac.uk/~ajrs/R/why_R.html) by Alastair Sanderson of the University of Birmingham, who also offers a guide on getting started with it.
 
-R also has a vibrant community devoted to developing R packages for science: find out more at [rOpenSci](http://ropensci.org/).
+If you decide to take the plunge, check out the R-Project's [official introduction to the software](http://cran.r-project.org/doc/manuals/R-intro.html).
+R comes with a helpful `demo()` package, but for a truly immersive introduction, check out the [swirl](http://swirlstats.com/) package.
+Learning R is certainly worth it in the long run, although, given some complaints about it (see [Why R is Hard to Learn](http://r4stats.com/articles/why-r-is-hard-to-learn/) by Bob Muenchen), you might want to make sure you have someone to support/mentor you.
 
-That said, people do have some complaints about R (see [Why R is Hard to Learn](http://r4stats.com/articles/why-r-is-hard-to-learn/) by Bob Muenchen), so make sure you have someone to support/mentor you.
+R also has a vibrant community devoted to developing R packages for science, so you should find just about any tool for performing your analyses: find out more at [rOpenSci](http://ropensci.org/).
 
 #### Python
 
@@ -357,9 +373,7 @@ In all seriousness, though, Python has gained a reputation for being able to han
 Many programmers suggest that Python should be the [first language you learn](http://readwrite.com/2014/07/08/what-makes-python-easy-to-learn), and I myself have been exploring it for a while now.
 I even have a little python script that spits out a random eight-character string for me to assign to each of my research participants:
 
-<!--- Using Liquid tags for syntax highlighting, ignore Markdown preview on Atom -->
-
-{% highlight python %}
+```python
 # generate a random string of eight (8) characters.
 # Source: http://cern.ch/go/Sm6J
 # coding: utf-8
@@ -368,11 +382,11 @@ import random
 def id_generator(size=8, chars=string.ascii_uppercase + string.digits):
 return ''.join(random.SystemRandom().choice(chars) for _ in range(size))
 print id_generator()
-{% endhighlight %}
+```
 
 Before you go ahead and invest yourself in this language, be sure to look into its [pros](http://www.stat.washington.edu/~hoytak/blog/whypython.html) and [cons](http://programmers.stackexchange.com/questions/15468/what-are-the-drawbacks-of-python).
-However, if you do decide to use Python for data analysis, you might want to check out the book helpfully titled, er, [Python for Data Analysis](http://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793).
-It will introduce you to [IPython](http://ipython.org/), which makes Python so much more accessible, as well as [pandas](http://pandas.pydata.org/) and [NumPy](http://www.numpy.org/).
+However, if you do decide to use Python for data analysis, you might want to check out the book helpfully titled, er, [Python for Data Analysis](http://www.amazon.com/dp/1449319793).
+It will introduce you to [IPython](http://ipython.org/) (and [Jupyter notebooks](http://jupyter.org/)), which makes Python so much more accessible, as well as [pandas](http://pandas.pydata.org/) and [NumPy](http://www.numpy.org/).
 
 There's also a way to use both R and Python together, but tread with caution: see [Python interface for R Programming Language](http://stackoverflow.com/questions/11716923/python-interface-for-r-programming-language) and [R vs Python for data analysis](http://programmers.stackexchange.com/questions/181342/r-vs-python-for-data-analysis).
 
@@ -387,18 +401,22 @@ There are some excellent resources available online, such as the [Data Visualiza
 [Alberto Cairo](http://www.thefunctionalart.com/) is an excellent instructor on data visualisation.
 Here's a [video of a presentation he gave recently](https://www.youtube.com/watch?v=3gZDedvFidk) on the subject.
 You can also [download three chapters of his book *The Functional Art*](http://www.thefunctionalart.com/2012/09/download-three-chapters-of-functional.html) on his website.
+Two of Edward Tufte's many books on the matter -- [*Envisioning Information*](https://www.edwardtufte.com/tufte/books_ei) and [*The Visual Display of Quantitative Information*](https://www.edwardtufte.com/tufte/books_vdqi) -- are also highly recommended.
 
 Now, some of the tools at your disposal:
 
 - **MS Excel**: As with data analysis, MS Excel can be used to [produce pretty decent visualisations in many cases](http://insights.qunb.com/good-ol-excel-is-the-ultimate-data-visualization-tool-in-most-cases/).
 The [Data Visualization Blog by Jorge Camões](http://www.excelcharts.com/blog/) has many resources for this.
 - **R**: The power of the aforementioned [R](#r) can be harnessed to produce [graphs and plots of all kinds](http://flowingdata.com/2012/12/17/getting-started-with-charts-in-r/).
+The built-in visualisation tools can also be extended by the wonderful [ggplot2](http://ggplot2.org/) package, which is something I cannot recommend enough.
+Here's the [best introduction to ggplot2 I've come across](https://jofrhwld.github.io/avml2012/).
 - **Python**: If you're using [Python](#python) for your analysis, you might want to use [matplotlib](http://matplotlib.org/) for your visualisation needs.
 However, if you need to present your visualisations on the web, you would want to explore [Bokeh](http://bokeh.pydata.org/).
 - **JavaScript**: JavaScript has many criticisms as a programming language, but it has given us an incredibly versatile and powerful library for data visualisation: [D3.js](http://d3js.org/) or Data-Driven Documents (the name of which makes me happy because of the correct use of a hyphen!).
 If JavaScript isn't your cup of tea but you want to use D3.js nonetheless, look no further than [RAW](http://raw.densitydesign.org/).
 RAW works in your browser but doesn't send your data to any server.
 But you also have the option to [download and install it](https://github.com/densitydesign/raw/#usage) locally, if you need to work offline.
+- **Tableau**: If you're looking for a tool known for being highly intuitive, check out [Tableau](http://www.tableau.com/products/desktop). Although it is proprietary and commercial software (so non-free in both senses of the term), it is available [free (as in free beer) for students](http://www.tableau.com/academic).
 
 ## Identifying Your Work
 
@@ -536,6 +554,18 @@ You can supplement the poster by:
 	- handing out visiting cards to interested people, or
 	- my favourite option &mdash; providing slips pointing to a website where you host more material/information, such as videos, photographs, papers, reports etc. (include this URL on the poster as well).
 
+## Linux
+
+(… or more correctly, since I'm not speaking exclusively of the kernel, "the GNU/Linux operating system and its various distributions".
+But that's [a conversation for another day](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy), and for the purposes of this section I'm going to use "Linux" as a shorthand term.)
+
+I don't use Linux for my academic work, but I do have [Linux distros](https://en.wikipedia.org/wiki/Linux_distribution) running on three machines at home and work.
+Unless you already have a MacBook running macOS (a UNIX OS) or are required to use Windows by your university in order to access various in-house tools, you might want to give Linux a spin.
+Not only do many of the aforementioned software tools and packages run natively and nearly flawlessly on it, Linux itself is also free as in free beer (in addition to respecting your freedoms).
+
+Personally, learning to use the terminal ([Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) and the [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface) in general) has been a huge help to me with my work.
+If you're looking for a good hands-on tutorial, check out Rik Smith-Unna's [command-line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/).
+
 ## Support Structures
 
 Pursuing a PhD is not easy.
@@ -569,6 +599,7 @@ And to wrap up, I want to mention online peer groups, from whom I have received 
 
 All the best with your research!
 If you have anything to add, please [leave a comment on my blog](http://achintyarao.in/phdchat) or [create an issue or make a pull request on GitHub](https://github.com/RaoOfPhysics/phd-starter-kit/issues).
+You might also want to consider taking a look at [*Advice for PhD Students: Tips From Professors, Startup Founders, and Industry Professionals*](https://thewinnower.com/papers/advice-for-phd-students-tips-from-professors-startup-founders-and-industry-professionals).
 
 ---
 
