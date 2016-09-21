@@ -267,6 +267,7 @@ By using [Git](#git), I retain a full version history of my file, with "commit m
 If you plan on using Markdown, I recommend using [Atom](https://atom.io/) or [Brackets](http://brackets.io/) as your text editor.
 I've used the former and love many things about it, including its customisability as well as [GitHub](#github) integration.
 I use the "[Zen](https://atom.io/packages/zen)" plugin for Atom, which, along with the full-screen mode of OS X, makes for perfect distraction-free writing.
+If you are going to use [R](#R) for your analysis, you should look into using [RStudio](https://www.rstudio.com/), which comes with a built-in authoring tool allowing you to compose entire papers or presentations (and much more) in [Markdown with embedded R code for auto-generating your plots and tables](http://rmarkdown.rstudio.com/).
 
 Meta aside: I've [written this post offline using Markdown](https://raw.githubusercontent.com/RaoOfPhysics/phd-starter-kit/gh-pages/index.md), albeit with some tags and code that are specific to the Markdown interpreter for this website.
 
@@ -278,7 +279,7 @@ However, if you are familiar with Markdown but feel that you would rather have L
 (Note: I have not used Will's method and cannot vouch for it.)
 Be sure, though, to use [Git](#git) with your files.
 
-Alternatively, check out LaTeX-powered web-based platforms such as [Authorea](https://www.authorea.com/) and [ShareLaTeX](https://www.sharelatex.com/).
+Alternatively, check out LaTeX-powered web-based platforms such as [Authorea](https://www.authorea.com/),  [ShareLaTeX](https://www.sharelatex.com/) and [Overleaf](https://www.overleaf.com/).
 
 ## Version Control
 
@@ -291,29 +292,15 @@ I will, however, focus mainly on…
 ### Git
 
 [Git](http://git-scm.com/) is a distributed revision-control system built by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) of Linux fame.
-If you are familiar with terminal commands, you might consider using the command-line interface of Git, which can be augmented with tools such as [`git extras`](https://github.com/tj/git-extras).
-If you prefer not to, there are a wealth of tools and platforms at your disposal that greatly lower the threshold for using Git:
-
-#### Penflip
-
-I stumbled across [Penflip](https://www.penflip.com/) when looking for a version-control platform dedicated to writing instead of coding.
-The developer [has written](http://www.madebyloren.com/github-for-writers) about his motivation for building this tool, and I suggest giving it a read.
-Penflip uses [Markdown](#markdown) syntax and you export your publications to HTML, PDF, EPUB and more.
-You can use it to write single documents or group them into books with individual documents making up chapters.
-Penflip is also great for collaborative editing, but note that the owner of the project needs to actively accept any changes that are proposed.
-
-I mentioned earlier that I use Markdown for my research proposal, annotated bibliography and survey draft: all three are stored on Penflip, although I work offline on my desktop using [Atom](https://atom.io/) and then push my changes to Penflip.
-I also have a public document on Penflip: [Social Media for Academic Conferences](https://www.penflip.com/RaoOfPhysics/social-media-for-academic-conferences).
-
-Penflip is free for public projects, but you'll need to subscribe for private projects.
-Although I have been kindly given a few free private repos by the developer, I think the subscription is definitely worth it.
-I cannot recommend this service enough!
+If you are familiar with [terminal](#the-terminal) commands, you might consider using the command-line interface of Git, which can be augmented with tools such as [`git extras`](https://github.com/tj/git-extras).
+If you prefer not to, there are a wealth of tools and platforms at your disposal that greatly lower the threshold for using Git, including:
 
 #### GitHub
 
 [GitHub](https://github.com/) is a platform for hosting Git repositories and is the largest code host in the world.
 Although mainly designed for code, people have used the service to collaboratively write [textbooks](https://github.com/HoTT/book) and [policy documents](https://github.com/showcases/policies), so you should consider using GitHub whether or not you need to dabble with code.
 GitHub [offers free private repositories to students and teachers](https://education.github.com/).
+For example, I store all [my PhD related Git repositories on GitHub](https://github.com/RaoOfPhysics/phd), regardless of whether they're documents, presentations or posters.
 Alternatives to GitHub that offer free repositories independent of your student status include [BitBucket](https://bitbucket.org/features) and [GitLab](https://about.gitlab.com/).
 
 The aforementioned Sunrise [calendar](#calendars) also syncs my GitHub `Milestones`, which makes sure that I'm always informed of upcoming deadlines for my projects.
@@ -379,6 +366,8 @@ If you're wondering whether this is the tool for you, I suggest reading [Why R](
 If you decide to take the plunge, check out the R-Project's [official introduction to the software](http://cran.r-project.org/doc/manuals/R-intro.html).
 R comes with a helpful `demo()` package, but for a truly immersive introduction, check out the [swirl](http://swirlstats.com/) package.
 Learning R is certainly worth it in the long run, although, given some complaints about it (see [Why R is Hard to Learn](http://r4stats.com/articles/why-r-is-hard-to-learn/) by Bob Muenchen), you might want to make sure you have someone to support/mentor you.
+
+As mentioned above, if you're going to use R for your analysis, you should consider using [RStudio](https://www.rstudio.com/), which is a full-fledged integrated development environment for the language.
 
 R also has a vibrant community devoted to developing R packages for science, so you should find just about any tool for performing your analyses: find out more at [rOpenSci](http://ropensci.org/).
 
