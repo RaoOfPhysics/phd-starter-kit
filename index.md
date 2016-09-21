@@ -309,11 +309,6 @@ Penflip is free for public projects, but you'll need to subscribe for private pr
 Although I have been kindly given a few free private repos by the developer, I think the subscription is definitely worth it.
 I cannot recommend this service enough!
 
-I should give an honourable mention to [Beegit](https://beegit.com/), which is an web-based writing platform that offers version control and collaborative editing (you will need a paid account for the latter).
-You write in [Markdown](#markdown) and Beegit converts your projects into formats such as HTML, PDF, EPUB and even InDesign.
-However, despite its name, it doesn't offer any Git integration, and the lack of offline access is a deal breaker for me.
-But it may fit your needs, so give it a spin.
-
 #### GitHub
 
 [GitHub](https://github.com/) is a platform for hosting Git repositories and is the largest code host in the world.
