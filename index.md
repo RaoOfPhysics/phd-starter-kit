@@ -441,6 +441,8 @@ RAW works in your browser but doesn't send your data to any server.
 But you also have the option to [download and install it](https://github.com/densitydesign/raw/#usage) locally, if you need to work offline.
 - **Tableau**: If you're looking for a tool known for being highly intuitive, check out [Tableau](http://www.tableau.com/products/desktop). Although it is proprietary and commercial software (so non-free in both senses of the term), it is available [free (as in free beer) for students](http://www.tableau.com/academic).
 
+For a pretty comprehensive review of the various visualisation tools out there, check out [this blog post](http://inspire.blufra.me/big-data-visualization-review-of-the-20-best-tools/).
+
 ## Identifying Your Work
 
 Depending on how you look at it, you might say that I am fortunate to have such a… rare first name.
