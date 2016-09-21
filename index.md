@@ -1,11 +1,11 @@
 ---
 layout: default
 date: 2014-12-24
-modified-date: 2016-09-08
+modified-date: 2016-09-13
 ---
 
 **NOTE**: This website has been updated with quite a few edits and additions.
-The last version of the site, containing only minor edits to the content compared with the original text, can be found [here](https://github.com/RaoOfPhysics/phd-starter-kit/blob/5ffb28edaf5b4365c21761ee409de75264c58f00/index.md).
+The last version of the site with only minor edits to the content compared with the original text can be found [here](https://github.com/RaoOfPhysics/phd-starter-kit/blob/5ffb28edaf5b4365c21761ee409de75264c58f00/index.md).
 
 ---
 
@@ -99,6 +99,18 @@ Although I don't really use the Calendar app on my laptop, I have set it up to s
 I handle calendar invitations on my laptop using [Thunderbird](https://www.mozilla.org/thunderbird/), which I use for e-mail across all my accounts.
 
 There is no right or wrong way of calendaring, but be sure that you use some form.
+
+### Checklists
+
+Checklists don't quite fit into the category of TODO lists, although there is a significant overlap.
+The kind of checklists I want to address here are not of the one-off kind but are meant for repeat tasks.
+I've only been a recent convert to the philosophy of checklists for routine tasks, mostly thanks to [*The Checklist Manifesto*](https://www.goodreads.com/book/show/6667514-the-checklist-manifesto), a book I cannot recommend enough.
+
+The premise is simple: we all perform tasks regularly, gaining a certain proficiency in doing them; but when we have to perform familiar tasks under high-pressure conditions, we may miss a step or two with unhappy consequences.
+Checklists come to the rescue by ensuring that our minds are not occupied by making sure we're following the right sequence of steps, allowing us to focus on the individual steps themselves or on the wider picture of the task at hand.
+As an example, a checklist for a data-collection interview makes sure that you have the consent form signed, have recorded all the interviewee's data correctly and have provided your own contact information to the interviewee at the end of your session.
+If you're not convinced, give [this summary of the aforementioned book](http://www.abstract-living.com/checklist-manifesto-summary/) a read.
+Although the book focuses on the medical profession, with examples from aviation and construction, you might find, like I did, that it is applicable to your research as well.
 
 ## Backups
 
@@ -318,6 +330,17 @@ Meta aside: This website itself is hosted on GitHub Pages, and has [its own repo
 Depending on your field of research, you may have to deal with different amounts of data.
 There are a few aspects of working with data that you should be aware of, which I've covered here.
 
+### Data Management and Sharing
+
+Your data are possibly your most valuable asset during your research, not just for you but for your entire field of study and beyond.
+And learning how to manage these data is an invaluable skill to add to your arsenal.
+Before you are allowed to begin your data collection, your university or department may require you to formulate a [data-management plan (or DMP)](https://en.wikipedia.org/wiki/Data_management_plan).
+Essentially, a DMP is meant to address questions about the nature of the data being collected, how and where they will be stored, what analyses will be run on them, how the data will be made available (if at all) after your own research is complete and so forth.
+
+Two excellent resources for crafting your DMP are the US-centric [DMPTool](https://dmptool.org/) and the UK-focused [DMPonline](https://dmponline.dcc.ac.uk/), which also comes with [a fantastic checklist](http://www.dcc.ac.uk/resources/data-management-plans/checklist).
+
+You may also be required by your funders to make your research data available [openly](https://en.wikipedia.org/wiki/Open_science_data). I won't go into great detail regarding Open Data, but I will point you to [this excellent page](http://sparcopen.org/open-data/) by the Scholarly Publishing and Academic Resources Coalition (SPARC), which serves as a valuable entry point to learn more about the motivations and means for making one's data open.
+
 ### Anonymity
 
 If your research involves human subjects, you may have to make an application for ethics approval from your university (and possibly any organisation(s) involved).
@@ -333,11 +356,11 @@ This is a topic that has received much attention in recent times.
 However, the lessons learnt from this and the tools used are applicable to encrypting your research data, particularly when anonymity is a concern.
 
 One of the tools that has been in the spotlight is [TrueCrypt](http://en.wikipedia.org/wiki/TrueCrypt).
-The project got shut down earlier this year without warning and with an ominious message on the download site, but [it is thought that the software is still safe to use](https://www.grc.com/misc/truecrypt/truecrypt.htm).
+The project got shut down in 2014 without warning and with an ominious message on the download site, but [it is thought that the software is still safe to use](https://www.grc.com/misc/truecrypt/truecrypt.htm).
 I keep an encrypted TrueCrypt volume in my CERN DFS space (mentioned under [Directory Structure](#directory-structure)), which stores all my research data.
 Not only am I the only one besides CERN's IT service who can access the DFS space (and they can only do so under authorisation), but the encryption provides an additional layer of security to ensure the confidentiality and anonymity of my research participants.
 
-If you prefer not to use TrueCrypt, look into [AES Crypt](https://www.aescrypt.com/) as well as [GNU Privacy Guard](https://www.gnupg.org/).
+If you prefer not to use TrueCrypt, look into [VeraCrypt](https://veracrypt.codeplex.com/) (which is based on the TrueCrypt codebase but has received many updates since TrueCrypt closed down), [AES Crypt](https://www.aescrypt.com/) and [GNU Privacy Guard](https://www.gnupg.org/).
 
 ### Analysis
 
@@ -560,9 +583,12 @@ You can supplement the poster by:
 But that's [a conversation for another day](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy), and for the purposes of this section I'm going to use "Linux" as a shorthand term.)
 
 I don't use Linux for my academic work, but I do have [Linux distros](https://en.wikipedia.org/wiki/Linux_distribution) running on three machines at home and work.
-Unless you already have a MacBook running macOS (a UNIX OS) or are required to use Windows by your university in order to access various in-house tools, you might want to give Linux a spin.
+Unless you already have a MacBook running macOS (a UNIX OS, allowing you to relatively trivially set up the development tools you need) or are required to use Windows by your university in order to access various in-house tools, you might want to give Linux a spin.
 Not only do many of the aforementioned software tools and packages run natively and nearly flawlessly on it, Linux itself is also free as in free beer (in addition to respecting your freedoms).
 
+### The terminal
+
+(This section isn't strictly about Linux -- I use the terminal on macOS, myself -- but it makes some sense to include it here.)
 Personally, learning to use the terminal ([Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) and the [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface) in general) has been a huge help to me with my work.
 If you're looking for a good hands-on tutorial, check out Rik Smith-Unna's [command-line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/).
 
