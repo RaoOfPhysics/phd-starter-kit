@@ -187,7 +187,7 @@ and society is…
 You may have noticed that this page comes with a set of buttons on the top-right corner.
 These are provided by a fantastic annotation tool called [Hypothesis](https://hypothes.is).
 Not only does Hypothesis allow you to leave personal notes on your reference material all over the web (publicly, privately or with a specific group of users), you can also use it to [annotate your PDFs](https://hypothes.is/blog/annotating-pdfs-without-urls/).
-This feature is particularly useful if you use [Zotero](#zotero), since you can use its plugin to open your reference PDFs inside your browser and then launch the Hypothesis javascript to add an annotation layer on top of youf files.
+This feature is particularly useful if you use [Zotero](#zotero), since you can use its plugin to open your reference PDFs inside your browser and then launch the Hypothesis javascript to add an annotation layer on top of your files.
 
 Your annotations are synchronised with your account so that they will appear even when you open up the same PDF on the website of the journal from which you downloaded it.
 
@@ -262,6 +262,7 @@ On the academic side so far, I use(d) Markdown for my:
 
 I export the `.md` files to `.odt`/`.doc(x)`, send them for comments to my supervisors, and incorporate the suggestions/edits back into the `.md` file.
 By using [Git](#git), I retain a full version history of my file, with "commit messages" that accompany every change I save and "tags" for major revisions, so I can compare versions as I need.
+Of course, I don't have the full version history with my `.doc(x)` files, but since I use this format mainly for receiving comments, I save all copies of these files in a separate folder.
 (Note: Git has a bit of a learning curve as well, but I'll cover some excellent tools that simplify its use, under [Version Control](#version-control).)
 
 If you plan on using Markdown, I recommend using [Atom](https://atom.io/) or [Brackets](http://brackets.io/) as your text editor.
@@ -302,8 +303,6 @@ Although mainly designed for code, people have used the service to collaborative
 GitHub [offers free private repositories to students and teachers](https://education.github.com/).
 For example, I store all [my PhD related Git repositories on GitHub](https://github.com/RaoOfPhysics/phd), regardless of whether they're documents, presentations or posters.
 Alternatives to GitHub that offer free repositories independent of your student status include [BitBucket](https://bitbucket.org/features) and [GitLab](https://about.gitlab.com/).
-
-The aforementioned Sunrise [calendar](#calendars) also syncs my GitHub `Milestones`, which makes sure that I'm always informed of upcoming deadlines for my projects.
 
 Meta aside: This website itself is hosted on GitHub Pages, and has [its own repository](https://github.com/RaoOfPhysics/phd-starter-kit).
 
@@ -605,7 +604,15 @@ And to wrap up, I want to mention online peer groups, from whom I have received 
 
 - [/r/GradSchool](http://www.reddit.com/r/gradschool)
 - [Academia Stack Exchange](http://academia.stackexchange.com/)
-- Twitter: [#phdchat](https://twitter.com/hashtag/phdchat?f=realtime)
+- Twitter:
+	- [#phdchat](https://twitter.com/hashtag/phdchat?f=realtime)
+	- [#phdlife](https://twitter.com/hashtag/phdlife?f=realtime)
+	- [@PhDpositivity](https://twitter.com/PhDpositivity)
+	- [@VivaSurvivors](https://twitter.com/VivaSurvivors)
+	- [@GradHacker](https://twitter.com/GradHacker)
+	- [@HackyourPhD](https://twitter.com/HackyourPhD)
+	- [@Dissertating](https://twitter.com/Dissertating)
+	- ["Shut up and Write"](https://twitter.com/search?q=Shut+up+and+Write)
 
 ---
 
