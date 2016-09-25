@@ -70,7 +70,7 @@ One method that has had some measure of success with me is the…
 #### Bullet Journal
 
 The [Bullet Journal](http://www.bulletjournal.com/) method is an "analogue" technique for maintaining your `TODO` lists.
-The entire process is well articulated on the website itself, so I won't go into details here, except to say that I use a version of it called [Hybrid Journal](http://www.jamesgowans.com/hybrid/) (without *Trickle Lists*) and have a custom key that is relevant to me.
+The entire process is well articulated on the website itself, so I won't go into details here, except to say that I use a version of it called [Hybrid Journal](http://jamesgowans.com/hybrid) (without *Trickle Lists*) and have a custom key that is relevant to me.
 I use this method along with…
 
 #### Asana
